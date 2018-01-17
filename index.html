@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>Carrusel</title>
+  </head>
+  <body>
+    <div class="contenedor-carrusel">
+      <div class="carrusel">
+        <div data-slide="0" class="carrusel-content active">
+          <img src="./images/bolsa1.jpeg" alt="">
+        </div>
+        <div data-slide="1" class="carrusel-content">
+          <img src="./images/bolsa2.jpg" alt="">
+        </div>
+        <div data-slide="2" class="carrusel-content">
+          <img src="./images/bolsa3.jpeg" alt="">
+        </div>
+        <div  data-slide="3" class="carrusel-content">
+          <img src="./images/bolsa4.jpg" alt="">
+        </div>
+      </div>
+      <div class="controls">
+        <a href="#" class="previeus">&#60;</a>
+        <button class="control active" data-target = "0" type="button" name="button">0</button>
+        <button class="control" data-target = "1" type="button" name="button">0</button>
+        <button class="control" data-target = "2" type="button" name="button">0</button>
+        <button class="control" data-target = "3" type="button" name="button">0</button>
+        <a href="#" class="next">&#62;</a>
+      </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
